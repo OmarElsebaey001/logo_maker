@@ -31,7 +31,3 @@ def create_full_image(lg_width,lg_height,margin,lg_text,font_file,lg_txt_color,l
     font_size  = get_max_font(usable_w,usable_h,font_file,lg_text)
     img = generate_image_simple_mode(lg_width,lg_height,lg_text,lg_txt_color,lg_bk_color,font_file,font_size)
     return img
-
-
-
-

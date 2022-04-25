@@ -1,2 +1,5 @@
 venv
 static/*
+__pycashe__/
+.ipynb_checkpoints
+__pycache__/
