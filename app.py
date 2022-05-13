@@ -38,7 +38,7 @@ def show():
         
         img        = create_full_image(lg_width,lg_height,lg_margin,lg_text,font_file,lg_txt_color,lg_bk_color,lg_border)
         img_path      = f"static/p_{random.randint(0,2200000)}.jpg"
-        img.save(img_path)
+        img.save(img_path,dpi=(600,600))
 
         return render_template("processed.html",
         logo_width=lg_width,logo_height=lg_height,logo_text=lg_text,
